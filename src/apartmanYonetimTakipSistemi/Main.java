@@ -18,8 +18,8 @@ public class Main {
 
     public static void main(String[] args) {
         Daire daire = new Daire();
-
-        daire.aidat();
-
+        Aidat aidatlar = new Aidat();
+        aidatlar.aidatRandom();
+        daire.aidatOlustur();
     }
 }
